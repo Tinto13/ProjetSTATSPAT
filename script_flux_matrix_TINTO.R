@@ -6,7 +6,9 @@ library(maptools)
 library(ggraph)
 
 # Chargement des données
-erasmus = read.xlsx("Student_Mobility_2013-14.xlsx")
+# On va chercher le fichier Excel dans le directory StatSpatiale de Tinto
+# erasmus = read.xlsx("Student_Mobility_2013-14.xlsx")
+erasmus = read.xlsx("C:/Users/jacin/Desktop/WorkInProgress/StatSpatiale/Student_Mobility_2013-14.xlsx")
 
 # Elimination des colonnes inutiles pour ce travail
 erasmus_v1 = erasmus %>%
